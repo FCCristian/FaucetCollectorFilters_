@@ -2,23 +2,29 @@
 ||czilladx.com^$third-party
 ||bitcoadz.io^$third-party
 mellowads.com
-# https://adblockplus.org/forum/viewtopic.php?f=2&t=43192
-# Users should not have to punch holes in their blockers if it can be avoided.
+czilladx.com
 */fuckadblock-$script,redirect=fuckadblock.js-3.2.0
 */fuckadblock.$script,redirect=fuckadblock.js-3.2.0
-# https://github.com/gorhill/uBlock/issues/1271
-# https://forums.lanik.us/viewtopic.php?f=62&t=40409
+
 */blockadblock.$script,redirect=fuckadblock.js-3.2.0
 */blockadblock-$script,redirect=fuckadblock.js-3.2.0
-# https://adblockplus.org/forum/viewtopic.php?f=2&t=43762
+cdn.jsdelivr.net/jquery/2.1.4/jquery.min.map
 ||leporno.org/english.js$script,redirect=fuckadblock.js-3.2.0,first-party
-! https://github.com/uBlockOrigin/uAssets/issues/1551
-! https://github.com/uBlockOrigin/uAssets/issues/1554
-*/wp-adblock-$script,redirect=fuckadblock.js-3.2.0
 
-# https://github.com/gorhill/uBlock/issues/1136
+*/wp-adblock-$script,redirect=fuckadblock.js-3.2.0
+https://www.googletagmanager.com
+http://www.claimbits.io/favicon.ico
+http://www.claimbits.io/css/style.css
+!CAPTCHA BIT BLOCKER
+http://static.shenqiniao.net
+
 ||dailymotion.com/ac/video/$image,first-party,redirect=2x2-transparent.png
-# https://github.com/gorhill/uBlock/issues/1136#issuecomment-170371863
+
+||liverail.com^$important,domain=dailymotion.com
+
+
+||dailymotion.com/ac/video/$image,first-party,redirect=2x2-transparent.png
+
 ||liverail.com^$important,domain=dailymotion.com
 bestforkodi.com##script:inject(abort-on-property-write.js, disable_hot_keys)
 bestforkodi.com##script:inject(abort-on-property-write.js, nocontext)
